@@ -28,12 +28,29 @@ const data = {
     {
       id: 2,
       name: "Vue",
-      rate: 130,
+      rate: 110,
     },
     {
       id: 3,
       name: "Angular",
       rate: 130,
+      stars: 75,
+    },
+    {
+      id: 4,
+      name: "Reason",
+      rate: 79,
+    },
+    {
+      id: 5,
+      rate: 105,
+      name: "Node",
+      stars: 98,
+    },
+    {
+      id: 6,
+      rate: 98,
+      name: "Express",
       stars: 100,
     },
   ],
