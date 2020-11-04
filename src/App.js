@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles/App.css";
+import data from "./data";
+import CustomTable from "./components/CustomTable/CustomTable";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CustomTable
+        data={data.body}
+        headers={data.headers}
+        onItemClick={(item) => console.log(item)}
+        onRemoveItems={(items) => console.log(items)}
+        onFilter={(...items) => console.log(items)}
+      />
     </div>
   );
 }
