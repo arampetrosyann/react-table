@@ -116,6 +116,7 @@ export default function CustomTable({
                   checked={
                     selectedRows.findIndex((i) => i.id === item.id) !== -1
                   }
+                  readOnly
                 />
               ) : null}
               {item[dataIndex] || "—"}
