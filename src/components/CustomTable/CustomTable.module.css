@@ -6,6 +6,7 @@
   padding: 7px;
   border: 1px solid rgba(7, 12, 82, 0.3);
   border-radius: 7px;
+  background-color: rgb(255, 255, 255);
 }
 
 .deleteBtn {
@@ -46,6 +47,11 @@
 
 tr.tableRow > td {
   border-bottom: 1px solid rgba(7, 12, 82, 0.3);
+  text-align: center;
+}
+
+tr.tableRow > td:first-child {
+  text-align: left;
 }
 
 .checkbox {
