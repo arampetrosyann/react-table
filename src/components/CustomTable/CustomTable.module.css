@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: 3px 7px;
+  padding: 7px;
+  border: 1px solid rgba(7, 12, 82, 0.3);
+  border-radius: 7px;
+}
+
+.deleteBtn {
+  padding: 6px 0;
+  color: rgba(0, 0, 0);
+  background: none;
+  border: none;
+  border-radius: 11px;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+}
+
+.deleteBtn:hover {
+  background-color: rgba(205, 205, 205, 0.4);
+}
+
+.table {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.headers {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.headers > span {
+  margin-left: 4px;
+}
+
+.sortBtn {
+  border: none;
+  background: none;
+  font-size: 15px;
+  outline: none;
+}
+
+tr.tableRow > td {
+  border-bottom: 1px solid rgba(7, 12, 82, 0.3);
+}
+
+.checkbox {
+  margin-right: 4px;
+  cursor: pointer;
+}
