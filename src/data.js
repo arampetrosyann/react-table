@@ -9,7 +9,7 @@ const data = {
     {
       dataIndex: "rate",
       title: "Rating",
-      width: 120,
+      width: 250,
       sorter: true,
     },
     {
